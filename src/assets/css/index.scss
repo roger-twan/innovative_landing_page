@@ -5,4 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  #root {
+    #logo::after,
+    #nav {
+      opacity: 1;
+      transition: all 0.5s;
+    }
+
+    &.logo-hover {
+      #logo::after,
+      #nav {
+        opacity: 0;
+        transition: all 0.5s;
+      }
+    }
+  }
 }
