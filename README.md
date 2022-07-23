@@ -1,4 +1,4 @@
-# Upload build directory because the low perfomance server can't run build command.
+# Upload build directory because the low perfomance server can't run build command.
 
 # Getting Started with Create React App
 
